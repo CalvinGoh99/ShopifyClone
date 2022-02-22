@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="icon" href="./assets/shopify-icon.png"/>
+    <title>Sign up - Shopify</title>
+</head>
+<body>
+    <div class="card-page-body">
+        <div class="card-container">
+            <div class="card-form-section">
+                <div class="marketing-logo">
+                    <a href="#">
+                        <img src="./assets/shopify-logo.png" class="shopify-logo">
+                    </a>
+                </div>
+
+                <div class="card-form">
+                    <h1 class="card-heading">Create a Shopify ID</h1>
+                    <h2 class="card-subheading">The ecommerce platform made for you</h2>
+    
+                    <div class="signup-form-section">
+                        <form action="/signup_action_page.php" autocomplete="on"> <!--For PHP process-->
+                            <div class="signup-container">
+                                <div class="signup-info">
+                                    <label class="signup-label">Email</label>
+                                    <input required="required" class="signup-email" id="signup-email">
+                                </div>
+    
+                                <div class="fullname-info">
+                                    <div class="fname-info">
+                                        <label class="signup-label">First name</label>
+                                        <input required="required" class="signup-fname" id="signup-fname">
+                                    </div>
+                                    <div class="lname-info">
+                                        <label class="signup-label">Last name</label>
+                                        <input required="required" class="signup-lname" id="signup-lname">
+                                    </div>
+                                </div>
+    
+                                <p class="help-info">Enter your first and last name as they appear on your government-issued ID.</p>
+    
+                                <div class="signup-info">
+                                    <label class="signup-label">Password</label>
+                                    <input required="required" type="password" class="signup-password" id="signup-password">
+                                </div>
+    
+                                <p class="help-info">Your password must be at least 5 characters, and can’t begin or end with a space.</p>
+    
+                                <div class="signup-info">
+                                    <label class="signup-label">Confirm new password</label>
+                                    <input required="required" type="password" class="signup-confirm-password" id="signup-confirm-password">
+                                </div>
+                            </div>
+
+                            <a href="#"><button class="signup-button">Create Shopify ID</button></a>
+                        </form>
+
+                        <div class="more-info">
+                            <p class="help-info">By proceeding, you agree to the <a href="#">Terms and Conditions</a></p>
+                            <p class="help-info">Already have a Shopify ID? <a href="./login.html">Log in</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="card-footer">
+                <a class="more-info-footer">Help</a>
+                <a class="more-info-footer">Privacy</a>
+                <a class="more-info-footer">Terms</a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

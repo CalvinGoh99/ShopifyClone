@@ -1,0 +1,64 @@
+.signup-form-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.signup-container, .more-info{
+    display: block;
+    width: 100%;
+    margin: 0 -8px;
+}
+
+.signup-info, .fname-info, .lname-info{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.fullname-info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fname-info, .lname-info{
+    width: 50%;
+}
+
+.signup-label{
+    padding-bottom: 5px;
+}
+
+input{
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 0.05rem solid #90959b;
+    border-radius: 4px;
+    outline-color: #01684e;
+}
+
+p{
+    padding: 0px 8px;
+}
+
+.signup-button{
+    display: block;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #83878d;
+    border: none;
+    cursor: pointer;
+    padding: 1.8rem 3.5rem;
+    margin: 20px 0px;
+    z-index: 1;
+}
+
+
+
+
